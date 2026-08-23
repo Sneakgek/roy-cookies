@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roy Cookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo">🍪 Roy Cookies</div>
+        <button id="cartToggle" class="cart-btn">
+            Cart <span id="cartCount">0</span>
+        </button>
+    </header>
+
+    <section class="hero">
+        <h1>Freshly Baked. Ordered Online.</h1>
+        <p>Pick your favorites — stock updates live as you order.</p>
+    </section>
+
+    <nav class="category-filters" id="categoryFilters"></nav>
+
+    <main class="product-grid" id="productGrid"></main>
+
+    <aside class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="closeCart">✕</button>
+        </div>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total">Total: ₹<span id="cartTotal">0.00</span></div>
+            <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+        </div>
+    </aside>
+
+    <div id="overlay" class="overlay"></div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Roy Cookies. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
